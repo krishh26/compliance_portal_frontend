@@ -15,7 +15,7 @@ Login CSS
     height: 100%;
 }
 .login-container img{
-    padding-top: 20%;
+    padding-top: 30%;
 }
 .LoginForm{
     padding: 2rem;
@@ -111,6 +111,9 @@ Form control CSS
     padding-left: 2.5rem;
 }
 
+.progress, .progress-bar{
+    border-radius: 100px;
+}
 /*====================================
 Custom class
 =====================================*/
@@ -530,11 +533,13 @@ Freeze columns table
 Proifle setting
 =======================================*/
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     position: relative;
     border-radius: 100%;
     margin: auto;
+    padding: 10px;
+    border: 1px dashed #C32C1F;
     margin-bottom: 15px;
 }
 
@@ -624,11 +629,6 @@ Proifle setting
 }
 .text-bg-secondary{
     background-color: #16cdc7 !important; 
-}
-ul.Employeedetails li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 1rem;
 }
 /*==================================
   Media Query
