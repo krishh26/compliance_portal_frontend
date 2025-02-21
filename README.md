@@ -1,2 +1,2 @@
-# compliance_portal_frontend
-compliance_portal_frontend
+# compliance_admin_frontend
+compliance_admin_frontend
