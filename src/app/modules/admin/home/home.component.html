@@ -1,22 +1,27 @@
 <div class="wrapper">
   <nav id="sidebar" class="sidebar js-sidebar">
     <div class="sidebar-content js-simplebar">
-      <a class="sidebar-brand" routerLink="/admin/employee-list">
+      <a class="sidebar-brand" href="index.html">
         <span class="align-middle">
-          <!-- <img src="assets/img/zinga-logo.png" width="150"/> -->
-          Admin Portal
+          <!-- <img src="img/zinga-logo.png" width="150"/> -->
+          Compilance Portal
         </span>
       </a>
 
       <ul class="sidebar-nav">
         <li class="sidebar-item active">
-          <a class="sidebar-link" routerLink="/admin/employee-list">
-            <i class="bi bi-people"></i><span class="align-middle">Employee</span>
+          <a class="sidebar-link" routerLink="/compliance-test/outstanding-test">
+            <i class="bi bi-columns-gap"></i><span class="align-middle">Compliance Test</span>
           </a>
         </li>
         <li class="sidebar-item">
           <a class="sidebar-link" routerLink="/policies/policies-list">
             <i class="bi bi-file-text"></i> <span class="align-middle">Policies</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-link" routerLink="/support/supports">
+            <i class="bi bi-headset"></i> <span class="align-middle">Support</span>
           </a>
         </li>
       </ul>
@@ -35,7 +40,7 @@
         <ul class="navbar-nav navbar-align align-items-center">
           <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle d-none d-sm-inline-block"  data-bs-toggle="dropdown">
+            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" data-bs-toggle="dropdown">
               <img src="assets/img/avatars/avatar.jpg" class="avatar img-fluid full-rounded me-2 d-inline-block"
                 alt="Charles Hall" />
               <div class="text-dark d-inline-block"><strong>Admin</strong></div>

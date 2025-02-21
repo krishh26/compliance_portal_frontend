@@ -13,10 +13,10 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
     children: [
-      { path: 'employee-list', component: EmployeeListComponent },
-      { path: 'add-employee', component: AddEmployeeComponent },
-      { path: 'employee-details-completed', component: EmployeeDetailsCompletedComponent },
-      { path: 'employee-details-outstanding', component: EmployeeDetailsOutstandingComponent },
+      // { path: 'employee-list', component: EmployeeListComponent },
+      // { path: 'add-employee', component: AddEmployeeComponent },
+      // { path: 'employee-details-completed', component: EmployeeDetailsCompletedComponent },
+      // { path: 'employee-details-outstanding', component: EmployeeDetailsOutstandingComponent },
     ]
   },
   {

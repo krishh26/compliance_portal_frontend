@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../admin/home/home.component';
 import { UploadPoliciesComponent } from './upload-policies/upload-policies.component';
 import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
+import { DatapolicyVersionComponent } from './datapolicy-version/datapolicy-version.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'policies-list', pathMatch: 'full' },
@@ -13,8 +14,8 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
       { path: 'policies-list', component: PoliciesListComponent },
-      { path: 'upload-policy', component: UploadPoliciesComponent },
       { path: 'terms-conditions', component: TermsConditionsComponent },
+      { path: 'datapolicy-version', component: DatapolicyVersionComponent },
     ]
   },
   {
@@ -28,7 +29,8 @@ const routes: Routes = [
   declarations: [
     PoliciesListComponent,
     UploadPoliciesComponent,
-    TermsConditionsComponent
+    TermsConditionsComponent,
+    DatapolicyVersionComponent
   ],
   imports: [
     CommonModule,
